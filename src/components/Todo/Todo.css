@@ -1,0 +1,90 @@
+.main-cls {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 50px;
+}
+.show-point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.todo {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  text-align: center;
+  height: 100%;
+}
+
+.todo button {
+  background-color: yellowgreen;
+  width: fit-content;
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.todo button:hover {
+  background-color: rgb(168, 235, 36);
+}
+.form {
+  font-size: large;
+}
+.form h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.form input {
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.form button {
+  background-color: rgb(90, 162, 172);
+  width: fit-content;
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: rgb(13, 150, 168);
+}
+
+.todo-list {
+  padding: 10px;
+}
+
+.todo-list li {
+  padding-top: 5px;
+  text-align: center;
+}
+.todo-list li span {
+  padding: 3px;
+}
+.todo-list li button {
+  background-color: white;
+}
+
+.todo-list li button:hover {
+  background-color: bisque;
+}
+
+@media screen and (max-width: 550px) {
+  .main-cls {
+    display: flex;
+    flex-direction: column;
+  }
+  .form form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+}
